@@ -34,140 +34,45 @@
               <div class="panel-body">
                 <form>
                   <div class="form-group">
+                    <!-- To compensate for multiple fields, and be able to use Enter key to submit-->
+                    <input hidden id="forSubmit" type="submit">
+                      <!-- date input -->
                     <ul class="list-group" id="filters">
                       <li class="filter list-group-item">
                         <label for="date">Enter a Date Between 1/1/2010 to 1/13/2010</label>
-                        <input class="form-control" id="datetime" type="text" placeholder="1/11/2011">
+                        <input class="form-control" id="datetimeFilter" type="text" placeholder="1/1/2010">
                       </li>
 
                       <!-- city input -->
-                      <li>
-
+                      <li class="filter list-group-item">
+                        <label for="cityFilter">Input City Name</label>
+                        <input class="form-control" id="cityFilter" type="text" placeholder="san diego">
                       </li>
 
                       <!-- state dropdown -->
-                      <li>
+                      <li class="filter list-group-item">
                         <label for="stateFilter">State</label>
                         <select class="form-control" id="stateFilter">
-                          <option>ak</option>
-                          <option>al</option>
-                          <option>ar</option>
-                          <option>az</option>
-                          <option>ca</option>
-                          <option>co</option>
-                          <option>ct</option>
-                          <option>fl</option>
-                          <option>ga</option>
-                          <option>ia</option>
-                          <option>in</option>
-                          <option>ks</option>
-                          <option>ky</option>
-                          <option>la</option>
-                          <option>ma</option>
-                          <option>md</option>
-                          <option>mi</option>
-                          <option>mo</option>
-                          <option>ms</option>
-                          <option>nc</option>
-                          <option>nh</option>
-                          <option>nj</option>
-                          <option>nm</option>
-                          <option>ny</option>
-                          <option>oh</option>
-                          <option>on</option>
-                          <option>or</option>
-                          <option>pa</option>
-                          <option>sc</option>
-                          <option>tn</option>
-                          <option>tx</option>
-                          <option>va</option>
-                          <option>wa</option>
-                          <option>wi</option>
-                          <option>wv</option>
+                          <option>option for stateFilter select</option>
+
                         </select>
                       </li>
 
                       <!-- country dropdown -->
-                      <li>
+                      <li class="filter list-group-item">
                         <label for="countryFilter">Country</label>
                         <select class="form-control" id="countryFilter">
-                          <option>ak</option>
-                          <option>al</option>
-                          <option>ar</option>
-                          <option>az</option>
-                          <option>ca</option>
-                          <option>co</option>
-                          <option>ct</option>
-                          <option>fl</option>
-                          <option>ga</option>
-                          <option>ia</option>
-                          <option>in</option>
-                          <option>ks</option>
-                          <option>ky</option>
-                          <option>la</option>
-                          <option>ma</option>
-                          <option>md</option>
-                          <option>mi</option>
-                          <option>mo</option>
-                          <option>ms</option>
-                          <option>nc</option>
-                          <option>nh</option>
-                          <option>nj</option>
-                          <option>nm</option>
-                          <option>ny</option>
-                          <option>oh</option>
-                          <option>on</option>
-                          <option>or</option>
-                          <option>pa</option>
-                          <option>sc</option>
-                          <option>tn</option>
-                          <option>tx</option>
-                          <option>va</option>
-                          <option>wa</option>
-                          <option>wi</option>
-                          <option>wv</option>
+                          <option>option for countryFilter select</option>
+
                         </select>
                       </li>
 
                       <!-- shape dropdown -->
-                      <li>
+                      <li class="filter list-group-item">
                         <label for="shapeFilter">Shape</label>
                         <select class="form-control" id="shapeFilter">
-                          <option>ak</option>
-                          <option>al</option>
-                          <option>ar</option>
-                          <option>az</option>
-                          <option>ca</option>
-                          <option>co</option>
-                          <option>ct</option>
-                          <option>fl</option>
-                          <option>ga</option>
-                          <option>ia</option>
-                          <option>in</option>
-                          <option>ks</option>
-                          <option>ky</option>
-                          <option>la</option>
-                          <option>ma</option>
-                          <option>md</option>
-                          <option>mi</option>
-                          <option>mo</option>
-                          <option>ms</option>
-                          <option>nc</option>
-                          <option>nh</option>
-                          <option>nj</option>
-                          <option>nm</option>
-                          <option>ny</option>
-                          <option>oh</option>
-                          <option>on</option>
-                          <option>or</option>
-                          <option>pa</option>
-                          <option>sc</option>
-                          <option>tn</option>
-                          <option>tx</option>
-                          <option>va</option>
-                          <option>wa</option>
-                          <option>wi</option>
-                          <option>wv</option>
+                          <option>option for shapeFilter select</option>
+
                         </select>
                       </li>
 
