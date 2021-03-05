@@ -41,5 +41,39 @@ function submitQuery () {
 };
 
 
+var stateList = [];
+tableData.forEach(function(x) {
+    var currentState = x.state
+    if(!(stateList.includes(currentState))) {
+        console.log("not in")
+        stateList.push(currentState);
+    };
+});
+console.log(stateList)
+
+//build dynamic dropdown builder
+//use .sort()on stateList
+//append new <option> tags for each item in stateList
 
 
+// var stateList = [];
+// tableData.forEach(function(x) {
+//     var currentState = x.state
+//     if(!(stateList.includes(currentState))) {
+//         console.log("not in")
+//         stateList.push(currentState);
+//     };
+// });
+// console.log(stateList)
+
+// function stateExtractor() {
+//     stateList = [];
+//     tableData.forEach(function(x) {
+//         if(!x.state in stateList) {
+//             stateList.push(x.state);
+//         };
+//     });
+//     console.log(stateList)
+// };
+
+// stateExtractor();
