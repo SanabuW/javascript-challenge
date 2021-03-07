@@ -27,4 +27,4 @@ This repository is for the javascript assignment for the UCSD Data Bootcamp usin
 - Main application file for DOM operations
 
 ### data.js
-- Source data
+- Source data file
