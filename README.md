@@ -1,8 +1,8 @@
 # javascript-challenge
-UCSD javascript challenge
+UCSD Javascript Challenge
 
 # Project Overview
-This repository is for the javascript assignment for the UCSD Data Bootcamp using the D3.js library for DOM manipulation. The assignment covers the following concepts:
+This repository is for the Javascript assignment for the UCSD Data Bootcamp using the D3.js library for DOM manipulation. The assignment covers the following concepts:
 - Dynamically update HTML elements with D3.js tools
 - Demonstrating proficiency in basic Javascript functions/methods (.e.g .push(), Object., .forEach(), .filter())
 - Using event listeners/handlers to trigger actions on the HTML
