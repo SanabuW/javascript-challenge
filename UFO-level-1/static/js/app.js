@@ -1,7 +1,6 @@
 // from data.js
 var tableData = data;
 
-
 // Select form
 var form = d3.select("form");
 // Select button
@@ -20,6 +19,7 @@ function submitQuery () {
     // retrieve text from the input field
     // select input field
     var inputField = d3.select("#datetime");
+    // pass value for the input field into its own variable
     var queryInput = inputField.property("value");
     // create array of filtered data
     var filteredData = tableData.filter(sighting => sighting.datetime === queryInput);
@@ -31,7 +31,7 @@ function submitQuery () {
     //clear output of any previous queries
     outputBody.html("");
 
-
+    // populate table, appending new rows for each new object, and new td elemnts for each column
     filteredData.forEach(function(f_Sighting) {
         var row = outputBody.append("tr");
         Object.values(f_Sighting).forEach(function(value){
