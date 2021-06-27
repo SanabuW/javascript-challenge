@@ -8,9 +8,9 @@ This repository is for the Javascript assignment for the UCSD Data Bootcamp usin
 - Pull values from user-input forms and reflect webpage accordingly thorugh data output tables
 - Dynamically changing dropdown content based on source data
 
-<img src="static/images/javascript_demo_001.png" width="600"/>
+<img src="UFO-level-2/static/images/javascript_demo_001.png" width="600"/>
 
-<img src="static/images/javascript_demo_002.png" width="600"/>
+<img src="UFO-level-2/static/images/javascript_demo_002.png" width="600"/>
 
 ### UFO-level-1
 - Application of DOM features and data retrieval, allowing users to filter information from a single field.
