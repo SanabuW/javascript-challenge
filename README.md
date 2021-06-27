@@ -20,13 +20,13 @@ This repository is for the Javascript assignment for the UCSD Data Bootcamp usin
 
 ## File Overview
 ### index.html
-- Main HTML file edited by D3.js
+- Main HTML file edited by D3.js. Offers a form to provide user input, and will display back filtered information using D3.js DOM manipulation to build a table of the data.
 
 ### js
-- Holds main .js application and source data
+- Holds the main .js application and source data.
 
 ### app.js
-- Main application file for DOM operations
+- Main application file for DOM operations. The script will retrieve all data from data.js and use submitQuery() to retrieve user input information from the HTML form and retrieve all data after filtering with the topFilter() function.
 
 ### data.js
-- Source data file
+- Source data file in the format of a JavaScript object.
