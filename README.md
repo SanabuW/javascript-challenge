@@ -12,13 +12,14 @@ This repository is for the Javascript assignment for the UCSD Data Bootcamp usin
 
 <img src="UFO-level-2/static/images/javascript_demo_002.png" width="600"/>
 
+
+## File Overview
 ### UFO-level-1
 - Application of DOM features and data retrieval, allowing users to filter information from a single field.
 
 ### UFO-level-2
 - Provides the user the option to filter results from multiple criteria.
-
-## File Overview
+- 
 ### index.html
 - Main HTML file edited by D3.js. Offers a form to provide user input, and will display back filtered information using D3.js DOM manipulation to build a table of the data.
 
