@@ -1,4 +1,4 @@
-# javascript-challenge
+# UFO Sightings Data
 
 ## Summary
 This repository is for the Javascript assignment for the UCSD Data Bootcamp using the D3.js library for DOM manipulation. The assignment covers the following concepts:
